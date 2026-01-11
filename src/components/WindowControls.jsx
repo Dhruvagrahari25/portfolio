@@ -12,4 +12,4 @@ const WindowControls = ({ target }) => {
         </div>
     )
 }
-export default WindowControls
+export default WindowControls;
