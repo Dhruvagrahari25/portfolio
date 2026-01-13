@@ -52,7 +52,7 @@ const dockApps = [
         id: "photos",
         name: "Gallery", // was "Photos"
         icon: "photos.png",
-        canOpen: true,
+        canOpen: false,
     },
     {
         id: "contact",
@@ -102,23 +102,19 @@ const blogPosts = [
 const techStack = [
     {
         category: "Frontend",
-        items: ["React.js", "Next.js", "TypeScript"],
+        items: ["React.js", "Next.js", "Tailwind.css"],
     },
     {
         category: "Mobile",
-        items: ["React Native", "Expo"],
-    },
-    {
-        category: "Styling",
-        items: ["Tailwind CSS", "Sass", "CSS"],
+        items: ["React Native", "Flutter"],
     },
     {
         category: "Backend",
-        items: ["Node.js", "Express", "NestJS", "Hono"],
+        items: ["Node.js", "Express", "FastAPI", "Spring Boot"],
     },
     {
         category: "Database",
-        items: ["MongoDB", "PostgreSQL"],
+        items: ["MongoDB", "PostgreSQL", "MySQL"],
     },
     {
         category: "Dev Tools",
@@ -132,28 +128,28 @@ const socials = [
         text: "Github",
         icon: "/icons/github.svg",
         bg: "#f4656b",
-        link: "https://github.com/JavaScript-Mastery-Pro",
+        link: "https://github.com/Dhruvagrahari25",
     },
     {
         id: 2,
-        text: "Platform",
-        icon: "/icons/atom.svg",
+        text: "Email",
+        icon: "/icons/gmail.svg",
         bg: "#4bcb63",
-        link: "https://jsmastery.com/",
+        link: "@dhruv.agrahari25@gmail.com",
     },
     {
         id: 3,
-        text: "Twitter/X",
-        icon: "/icons/twitter.svg",
+        text: "Leetcode",
+        icon: "/icons/leetcode.svg",
         bg: "#ff866b",
-        link: "https://x.com/jsmasterypro",
+        link: "https://leetcode.com/u/user7935PU/",
     },
     {
         id: 4,
         text: "LinkedIn",
         icon: "/icons/linkedin.svg",
         bg: "#05b6f6",
-        link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+        link: "https://www.linkedin.com/in/dhruv25agrahari/",
     },
 ];
 
@@ -225,7 +221,7 @@ const WORK_LOCATION = {
         // ▶ Project 1
         {
             id: 5,
-            name: "Nike Ecommerce Website Application",
+            name: "Invoice generator Website Application",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-5", // icon position inside Finder
@@ -233,30 +229,31 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Nike Project.txt",
+                    name: "Invoice generator.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-                        "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-                        "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-                        "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+                        "The Invoice Generator is a clean and efficient web application designed to create professional invoices quickly and effortlessly.",
+                        "Rather than relying on manual templates or spreadsheets, it provides a streamlined experience with intuitive forms, real-time calculations, and instant previews.",
+                        "Think of it as having a smart billing assistant that helps you generate accurate invoices in just a few clicks.",
+                        "Built with Next.js and Tailwind CSS, it delivers fast performance, responsive design, and a polished, business-ready interface.",
                     ],
+
                 },
                 {
                     id: 2,
-                    name: "nike.com",
+                    name: "BillGen.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+                    href: "https://bill-generator-ivory.vercel.app/",
                     position: "top-10 right-20",
                 },
                 {
                     id: 4,
-                    name: "nike.png",
+                    name: "BillGen.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
@@ -331,7 +328,7 @@ const WORK_LOCATION = {
         // ▶ Project 3
         {
             id: 7,
-            name: "Food Delivery App",
+            name: "Business Management System",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-80",
@@ -339,30 +336,31 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Food Delivery App Project.txt",
+                    name: "Business management project.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-                        "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-                        "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-                        "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+                        "The Business Management System is a comprehensive web application designed to streamline and centralize core business operations.",
+                        "Instead of juggling multiple tools, it brings together management of invoices, clients, records, and workflows in a single, unified platform.",
+                        "Think of it as a digital control center that helps businesses stay organized, efficient, and data-driven.",
+                        "Built with Next.js and Tailwind CSS, it delivers fast performance, responsive design, and a clean, enterprise-ready interface.",
                     ],
+
                 },
                 {
                     id: 2,
-                    name: "food-delivery-app.com",
+                    name: "business-management-system.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+                    href: "https://github.com/Dhruvagrahari25/ecom",
                     position: "top-10 right-20",
                 },
                 {
                     id: 4,
-                    name: "food-delivery-app.png",
+                    name: "business-management-system.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
@@ -397,7 +395,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-5",
-            imageUrl: "/images/adrian.jpg",
+            imageUrl: "/images/dhruv-3.jpg",
         },
         {
             id: 2,
@@ -406,16 +404,16 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-28 right-72",
-            imageUrl: "/images/adrian-2.jpg",
+            imageUrl: "/images/dhruv-2.jpg",
         },
         {
             id: 3,
-            name: "conference-me.png",
+            name: "hackathon-me.png",
             icon: "/images/image.png",
             kind: "file",
             fileType: "img",
             position: "top-52 left-80",
-            imageUrl: "/images/adrian-3.jpeg",
+            imageUrl: "/images/dhruv.jpg",
         },
         {
             id: 4,
@@ -425,12 +423,11 @@ const ABOUT_LOCATION = {
             fileType: "txt",
             position: "top-60 left-5",
             subtitle: "Meet the Developer Behind the Code",
-            image: "/images/adrian.jpg",
+            image: "/images/dhruv.jpg",
             description: [
-                "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
+                "Hey! I’m Dhruv 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
                 "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
                 "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-                "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
             ],
         },
     ],
