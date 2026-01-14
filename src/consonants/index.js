@@ -52,7 +52,7 @@ const dockApps = [
         id: "photos",
         name: "Gallery", // was "Photos"
         icon: "photos.png",
-        canOpen: false,
+        canOpen: true,
     },
     {
         id: "contact",
@@ -184,19 +184,19 @@ const photosLinks = [
 const gallery = [
     {
         id: 1,
-        img: "/images/gal1.png",
+        img: "/images/dhruv.jpg",
     },
     {
         id: 2,
-        img: "/images/gal2.png",
+        img: "/images/dhruv-2.jpg",
     },
     {
         id: 3,
-        img: "/images/gal3.png",
+        img: "/images/dhruv-3.jpg",
     },
     {
         id: 4,
-        img: "/images/gal4.png",
+        img: "/images/dhruv.png",
     },
 ];
 
@@ -301,7 +301,7 @@ const WORK_LOCATION = {
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+                    href: "https://github.com/Dhruvagrahari25/AI-Resume-Optimizer",
                     position: "top-20 left-20",
                 },
                 {
